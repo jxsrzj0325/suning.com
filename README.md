@@ -45,4 +45,13 @@ $ git commit -m 'message'
 
 # 查看提交日志
 $ git log
+
+# 恢复版本
+$ git reset --hard 提交记录的前6位
+
+# 查看帮助
+$ git --help
+
+# 恢复文件
+$ git checkout filename
 ```

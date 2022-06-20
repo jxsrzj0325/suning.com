@@ -55,3 +55,13 @@ $ git --help
 # 恢复文件
 $ git checkout filename
 ```
+
+
+#### 远程仓库操作
+```bash
+# 设置远程仓库地址
+$ git remote add origin https://github.com/jxsrzj0325/suning.com.git
+
+# 将本地仓库提交到远程仓库
+$ git push -u origin master
+```
